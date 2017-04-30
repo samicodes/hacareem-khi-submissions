@@ -1,0 +1,89 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FormatterKit (1.8.1):
+    - FormatterKit/AddressFormatter (= 1.8.1)
+    - FormatterKit/ArrayFormatter (= 1.8.1)
+    - FormatterKit/ColorFormatter (= 1.8.1)
+    - FormatterKit/LocationFormatter (= 1.8.1)
+    - FormatterKit/NameFormatter (= 1.8.1)
+    - FormatterKit/OrdinalNumberFormatter (= 1.8.1)
+    - FormatterKit/Resources (= 1.8.1)
+    - FormatterKit/TimeIntervalFormatter (= 1.8.1)
+    - FormatterKit/UnitOfInformationFormatter (= 1.8.1)
+    - FormatterKit/URLRequestFormatter (= 1.8.1)
+  - FormatterKit/AddressFormatter (1.8.1):
+    - FormatterKit/Resources
+  - FormatterKit/ArrayFormatter (1.8.1):
+    - FormatterKit/Resources
+  - FormatterKit/ColorFormatter (1.8.1):
+    - FormatterKit/Resources
+  - FormatterKit/LocationFormatter (1.8.1):
+    - FormatterKit/Resources
+  - FormatterKit/NameFormatter (1.8.1):
+    - FormatterKit/Resources
+  - FormatterKit/OrdinalNumberFormatter (1.8.1):
+    - FormatterKit/Resources
+  - FormatterKit/Resources (1.8.1)
+  - FormatterKit/TimeIntervalFormatter (1.8.1):
+    - FormatterKit/Resources
+  - FormatterKit/UnitOfInformationFormatter (1.8.1):
+    - FormatterKit/Resources
+  - FormatterKit/URLRequestFormatter (1.8.1):
+    - FormatterKit/Resources
+  - Google-Maps-iOS-Utils (1.1.2):
+    - Google-Maps-iOS-Utils/Clustering (= 1.1.2)
+    - Google-Maps-iOS-Utils/QuadTree (= 1.1.2)
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Clustering (1.1.2):
+    - Google-Maps-iOS-Utils/QuadTree
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/QuadTree (1.1.2):
+    - GoogleMaps
+  - GoogleMaps (2.1.1):
+    - GoogleMaps/Maps (= 2.1.1)
+  - GoogleMaps/Base (2.1.1)
+  - GoogleMaps/Maps (2.1.1):
+    - GoogleMaps/Base
+  - GooglePlaces (2.1.1):
+    - GoogleMaps/Base (= 2.1.1)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.2)
+  - FormatterKit
+  - Google-Maps-iOS-Utils
+  - GoogleMaps
+  - GooglePlaces
+  - Reachability
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  FormatterKit: 11ad17b983200629246a5a466f6f1bfa2df823cb
+  Google-Maps-iOS-Utils: 4f308c9bf3b0da228aff1435a92f9fc2e13a28ff
+  GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
+  GooglePlaces: 35636d86e5020cba3856eb988c09a5491de0a65a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+PODFILE CHECKSUM: c30c0d1cc93b878e279174c315c91a709571209b
+
+COCOAPODS: 1.2.0.beta.1

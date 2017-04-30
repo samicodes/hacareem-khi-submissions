@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0C1FFA48B357290FF9EC262 /* libPods-HaCareem-3UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDE043BD29DBA15A007CFF9 /* libPods-HaCareem-3UITests.a */; };
+		CFF30CC458BCDAE2022DB7DC /* libPods-HaCareem-3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 219098986A05B3FC1DB298C1 /* libPods-HaCareem-3.a */; };
+		F1548C4D6779EA31CE98AC1B /* libPods-HaCareem-3Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 672ECB94BF8754DB60F644BB /* libPods-HaCareem-3Tests.a */; };
+		F410A3771EB48286006AA6DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F410A3761EB48286006AA6DB /* main.m */; };
+		F410A37A1EB48286006AA6DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F410A3791EB48286006AA6DB /* AppDelegate.m */; };
+		F410A37D1EB48286006AA6DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F410A37C1EB48286006AA6DB /* ViewController.m */; };
+		F410A3801EB48286006AA6DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F410A37E1EB48286006AA6DB /* Main.storyboard */; };
+		F410A3821EB48286006AA6DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F410A3811EB48286006AA6DB /* Assets.xcassets */; };
+		F410A3851EB48286006AA6DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F410A3831EB48286006AA6DB /* LaunchScreen.storyboard */; };
+		F410A3901EB48286006AA6DB /* HaCareem_3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F410A38F1EB48286006AA6DB /* HaCareem_3Tests.m */; };
+		F410A39B1EB48286006AA6DB /* HaCareem_3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F410A39A1EB48286006AA6DB /* HaCareem_3UITests.m */; };
+		F410A3BF1EB49E69006AA6DB /* CHCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F410A3AA1EB49E69006AA6DB /* CHCache.m */; };
+		F410A3C01EB49E69006AA6DB /* CHDefaultAndConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = F410A3AC1EB49E69006AA6DB /* CHDefaultAndConstant.m */; };
+		F410A3C11EB49E69006AA6DB /* CHLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = F410A3AE1EB49E69006AA6DB /* CHLocation.m */; };
+		F410A3C21EB49E69006AA6DB /* CHLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F410A3B01EB49E69006AA6DB /* CHLocationManager.m */; };
+		F410A3C31EB49E69006AA6DB /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = F410A3B21EB49E69006AA6DB /* NSString+MD5.m */; };
+		F410A3C41EB49E69006AA6DB /* SVGeocoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F410A3B41EB49E69006AA6DB /* SVGeocoder.m */; };
+		F410A3C51EB49E69006AA6DB /* SVPlacemark.m in Sources */ = {isa = PBXBuildFile; fileRef = F410A3B61EB49E69006AA6DB /* SVPlacemark.m */; };
+		F410A3C61EB49E69006AA6DB /* UIColor+FlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = F410A3B81EB49E69006AA6DB /* UIColor+FlatColors.m */; };
+		F410A3C71EB49E69006AA6DB /* UIImage+additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F410A3BA1EB49E69006AA6DB /* UIImage+additions.m */; };
+		F410A3C81EB49E69006AA6DB /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = F410A3BC1EB49E69006AA6DB /* UIImage+fixOrientation.m */; };
+		F410A3C91EB49E69006AA6DB /* UIImage+Grayscale.m in Sources */ = {isa = PBXBuildFile; fileRef = F410A3BE1EB49E69006AA6DB /* UIImage+Grayscale.m */; };
+		F410A3CF1EB4CF4B006AA6DB /* OBGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = F410A3CE1EB4CF4B006AA6DB /* OBGradientView.m */; };
+		F410A3D21EB4D8A2006AA6DB /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F410A3D11EB4D8A2006AA6DB /* DataManager.m */; };
+		F410A3D61EB4DA1D006AA6DB /* DropOffSuggestion.m in Sources */ = {isa = PBXBuildFile; fileRef = F410A3D51EB4DA1D006AA6DB /* DropOffSuggestion.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F410A38C1EB48286006AA6DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F410A36A1EB48286006AA6DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F410A3711EB48286006AA6DB;
+			remoteInfo = "HaCareem-3";
+		};
+		F410A3971EB48286006AA6DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F410A36A1EB48286006AA6DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F410A3711EB48286006AA6DB;
+			remoteInfo = "HaCareem-3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B1EF2A31507EFBCA3A16437 /* Pods-HaCareem-3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaCareem-3UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaCareem-3UITests/Pods-HaCareem-3UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		219098986A05B3FC1DB298C1 /* libPods-HaCareem-3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HaCareem-3.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		306EB140DB53B1740148E29F /* Pods-HaCareem-3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaCareem-3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaCareem-3/Pods-HaCareem-3.debug.xcconfig"; sourceTree = "<group>"; };
+		54FBBE65F49A6120AAE8549F /* Pods-HaCareem-3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaCareem-3.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaCareem-3/Pods-HaCareem-3.release.xcconfig"; sourceTree = "<group>"; };
+		672ECB94BF8754DB60F644BB /* libPods-HaCareem-3Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HaCareem-3Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95381B7ED6014DC2B5860E26 /* Pods-HaCareem-3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaCareem-3Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaCareem-3Tests/Pods-HaCareem-3Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ACDE043BD29DBA15A007CFF9 /* libPods-HaCareem-3UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HaCareem-3UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2132D3F09B7FE8BEC8F3B1D /* Pods-HaCareem-3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaCareem-3UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaCareem-3UITests/Pods-HaCareem-3UITests.release.xcconfig"; sourceTree = "<group>"; };
+		F410A3721EB48286006AA6DB /* HaCareem-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HaCareem-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F410A3761EB48286006AA6DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F410A3781EB48286006AA6DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F410A3791EB48286006AA6DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F410A37B1EB48286006AA6DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F410A37C1EB48286006AA6DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F410A37F1EB48286006AA6DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F410A3811EB48286006AA6DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F410A3841EB48286006AA6DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F410A3861EB48286006AA6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F410A38B1EB48286006AA6DB /* HaCareem-3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HaCareem-3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F410A38F1EB48286006AA6DB /* HaCareem_3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaCareem_3Tests.m; sourceTree = "<group>"; };
+		F410A3911EB48286006AA6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F410A3961EB48286006AA6DB /* HaCareem-3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HaCareem-3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F410A39A1EB48286006AA6DB /* HaCareem_3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaCareem_3UITests.m; sourceTree = "<group>"; };
+		F410A39C1EB48286006AA6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F410A3A91EB49E69006AA6DB /* CHCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCache.h; sourceTree = "<group>"; };
+		F410A3AA1EB49E69006AA6DB /* CHCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCache.m; sourceTree = "<group>"; };
+		F410A3AB1EB49E69006AA6DB /* CHDefaultAndConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDefaultAndConstant.h; sourceTree = "<group>"; };
+		F410A3AC1EB49E69006AA6DB /* CHDefaultAndConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHDefaultAndConstant.m; sourceTree = "<group>"; };
+		F410A3AD1EB49E69006AA6DB /* CHLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLocation.h; sourceTree = "<group>"; };
+		F410A3AE1EB49E69006AA6DB /* CHLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLocation.m; sourceTree = "<group>"; };
+		F410A3AF1EB49E69006AA6DB /* CHLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLocationManager.h; sourceTree = "<group>"; };
+		F410A3B01EB49E69006AA6DB /* CHLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLocationManager.m; sourceTree = "<group>"; };
+		F410A3B11EB49E69006AA6DB /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		F410A3B21EB49E69006AA6DB /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		F410A3B31EB49E69006AA6DB /* SVGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGeocoder.h; sourceTree = "<group>"; };
+		F410A3B41EB49E69006AA6DB /* SVGeocoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGeocoder.m; sourceTree = "<group>"; };
+		F410A3B51EB49E69006AA6DB /* SVPlacemark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPlacemark.h; sourceTree = "<group>"; };
+		F410A3B61EB49E69006AA6DB /* SVPlacemark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVPlacemark.m; sourceTree = "<group>"; };
+		F410A3B71EB49E69006AA6DB /* UIColor+FlatColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatColors.h"; sourceTree = "<group>"; };
+		F410A3B81EB49E69006AA6DB /* UIColor+FlatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatColors.m"; sourceTree = "<group>"; };
+		F410A3B91EB49E69006AA6DB /* UIImage+additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+additions.h"; sourceTree = "<group>"; };
+		F410A3BA1EB49E69006AA6DB /* UIImage+additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+additions.m"; sourceTree = "<group>"; };
+		F410A3BB1EB49E69006AA6DB /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+fixOrientation.h"; sourceTree = "<group>"; };
+		F410A3BC1EB49E69006AA6DB /* UIImage+fixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+fixOrientation.m"; sourceTree = "<group>"; };
+		F410A3BD1EB49E69006AA6DB /* UIImage+Grayscale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Grayscale.h"; sourceTree = "<group>"; };
+		F410A3BE1EB49E69006AA6DB /* UIImage+Grayscale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Grayscale.m"; sourceTree = "<group>"; };
+		F410A3CD1EB4CF4B006AA6DB /* OBGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBGradientView.h; sourceTree = "<group>"; };
+		F410A3CE1EB4CF4B006AA6DB /* OBGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBGradientView.m; sourceTree = "<group>"; };
+		F410A3D01EB4D8A2006AA6DB /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		F410A3D11EB4D8A2006AA6DB /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		F410A3D41EB4DA1D006AA6DB /* DropOffSuggestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropOffSuggestion.h; sourceTree = "<group>"; };
+		F410A3D51EB4DA1D006AA6DB /* DropOffSuggestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropOffSuggestion.m; sourceTree = "<group>"; };
+		F85043315E097E9AA2F948B4 /* Pods-HaCareem-3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaCareem-3Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaCareem-3Tests/Pods-HaCareem-3Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F410A36F1EB48286006AA6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF30CC458BCDAE2022DB7DC /* libPods-HaCareem-3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F410A3881EB48286006AA6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1548C4D6779EA31CE98AC1B /* libPods-HaCareem-3Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F410A3931EB48286006AA6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C1FFA48B357290FF9EC262 /* libPods-HaCareem-3UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61759627B24521A3D7C2C275 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				219098986A05B3FC1DB298C1 /* libPods-HaCareem-3.a */,
+				672ECB94BF8754DB60F644BB /* libPods-HaCareem-3Tests.a */,
+				ACDE043BD29DBA15A007CFF9 /* libPods-HaCareem-3UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DCBC9E96B16A9F8230789BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				306EB140DB53B1740148E29F /* Pods-HaCareem-3.debug.xcconfig */,
+				54FBBE65F49A6120AAE8549F /* Pods-HaCareem-3.release.xcconfig */,
+				F85043315E097E9AA2F948B4 /* Pods-HaCareem-3Tests.debug.xcconfig */,
+				95381B7ED6014DC2B5860E26 /* Pods-HaCareem-3Tests.release.xcconfig */,
+				1B1EF2A31507EFBCA3A16437 /* Pods-HaCareem-3UITests.debug.xcconfig */,
+				B2132D3F09B7FE8BEC8F3B1D /* Pods-HaCareem-3UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F410A3691EB48286006AA6DB = {
+			isa = PBXGroup;
+			children = (
+				F410A3741EB48286006AA6DB /* HaCareem-3 */,
+				F410A38E1EB48286006AA6DB /* HaCareem-3Tests */,
+				F410A3991EB48286006AA6DB /* HaCareem-3UITests */,
+				F410A3731EB48286006AA6DB /* Products */,
+				8DCBC9E96B16A9F8230789BD /* Pods */,
+				61759627B24521A3D7C2C275 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F410A3731EB48286006AA6DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F410A3721EB48286006AA6DB /* HaCareem-3.app */,
+				F410A38B1EB48286006AA6DB /* HaCareem-3Tests.xctest */,
+				F410A3961EB48286006AA6DB /* HaCareem-3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F410A3741EB48286006AA6DB /* HaCareem-3 */ = {
+			isa = PBXGroup;
+			children = (
+				F410A3CB1EB4CF3A006AA6DB /* Third Party */,
+				F410A3A81EB49E61006AA6DB /* Helpers */,
+				F410A3781EB48286006AA6DB /* AppDelegate.h */,
+				F410A3791EB48286006AA6DB /* AppDelegate.m */,
+				F410A3D41EB4DA1D006AA6DB /* DropOffSuggestion.h */,
+				F410A3D51EB4DA1D006AA6DB /* DropOffSuggestion.m */,
+				F410A3D01EB4D8A2006AA6DB /* DataManager.h */,
+				F410A3D11EB4D8A2006AA6DB /* DataManager.m */,
+				F410A37B1EB48286006AA6DB /* ViewController.h */,
+				F410A37C1EB48286006AA6DB /* ViewController.m */,
+				F410A37E1EB48286006AA6DB /* Main.storyboard */,
+				F410A3811EB48286006AA6DB /* Assets.xcassets */,
+				F410A3831EB48286006AA6DB /* LaunchScreen.storyboard */,
+				F410A3861EB48286006AA6DB /* Info.plist */,
+				F410A3751EB48286006AA6DB /* Supporting Files */,
+			);
+			path = "HaCareem-3";
+			sourceTree = "<group>";
+		};
+		F410A3751EB48286006AA6DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F410A3761EB48286006AA6DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F410A38E1EB48286006AA6DB /* HaCareem-3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F410A38F1EB48286006AA6DB /* HaCareem_3Tests.m */,
+				F410A3911EB48286006AA6DB /* Info.plist */,
+			);
+			path = "HaCareem-3Tests";
+			sourceTree = "<group>";
+		};
+		F410A3991EB48286006AA6DB /* HaCareem-3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F410A39A1EB48286006AA6DB /* HaCareem_3UITests.m */,
+				F410A39C1EB48286006AA6DB /* Info.plist */,
+			);
+			path = "HaCareem-3UITests";
+			sourceTree = "<group>";
+		};
+		F410A3A81EB49E61006AA6DB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F410A3A91EB49E69006AA6DB /* CHCache.h */,
+				F410A3AA1EB49E69006AA6DB /* CHCache.m */,
+				F410A3AB1EB49E69006AA6DB /* CHDefaultAndConstant.h */,
+				F410A3AC1EB49E69006AA6DB /* CHDefaultAndConstant.m */,
+				F410A3AD1EB49E69006AA6DB /* CHLocation.h */,
+				F410A3AE1EB49E69006AA6DB /* CHLocation.m */,
+				F410A3AF1EB49E69006AA6DB /* CHLocationManager.h */,
+				F410A3B01EB49E69006AA6DB /* CHLocationManager.m */,
+				F410A3B11EB49E69006AA6DB /* NSString+MD5.h */,
+				F410A3B21EB49E69006AA6DB /* NSString+MD5.m */,
+				F410A3B31EB49E69006AA6DB /* SVGeocoder.h */,
+				F410A3B41EB49E69006AA6DB /* SVGeocoder.m */,
+				F410A3B51EB49E69006AA6DB /* SVPlacemark.h */,
+				F410A3B61EB49E69006AA6DB /* SVPlacemark.m */,
+				F410A3B71EB49E69006AA6DB /* UIColor+FlatColors.h */,
+				F410A3B81EB49E69006AA6DB /* UIColor+FlatColors.m */,
+				F410A3B91EB49E69006AA6DB /* UIImage+additions.h */,
+				F410A3BA1EB49E69006AA6DB /* UIImage+additions.m */,
+				F410A3BB1EB49E69006AA6DB /* UIImage+fixOrientation.h */,
+				F410A3BC1EB49E69006AA6DB /* UIImage+fixOrientation.m */,
+				F410A3BD1EB49E69006AA6DB /* UIImage+Grayscale.h */,
+				F410A3BE1EB49E69006AA6DB /* UIImage+Grayscale.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		F410A3CB1EB4CF3A006AA6DB /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				F410A3CC1EB4CF42006AA6DB /* OBGradientView */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		F410A3CC1EB4CF42006AA6DB /* OBGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				F410A3CD1EB4CF4B006AA6DB /* OBGradientView.h */,
+				F410A3CE1EB4CF4B006AA6DB /* OBGradientView.m */,
+			);
+			name = OBGradientView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F410A3711EB48286006AA6DB /* HaCareem-3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F410A39F1EB48286006AA6DB /* Build configuration list for PBXNativeTarget "HaCareem-3" */;
+			buildPhases = (
+				7B4C03215F7F73E47E084468 /* [CP] Check Pods Manifest.lock */,
+				F410A36E1EB48286006AA6DB /* Sources */,
+				F410A36F1EB48286006AA6DB /* Frameworks */,
+				F410A3701EB48286006AA6DB /* Resources */,
+				7834E4AD69216444BE33678E /* [CP] Embed Pods Frameworks */,
+				6B9E19EF3F24AFDAAF5E603D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HaCareem-3";
+			productName = "HaCareem-3";
+			productReference = F410A3721EB48286006AA6DB /* HaCareem-3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F410A38A1EB48286006AA6DB /* HaCareem-3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F410A3A21EB48286006AA6DB /* Build configuration list for PBXNativeTarget "HaCareem-3Tests" */;
+			buildPhases = (
+				54A5B5731646CC8332028A71 /* [CP] Check Pods Manifest.lock */,
+				F410A3871EB48286006AA6DB /* Sources */,
+				F410A3881EB48286006AA6DB /* Frameworks */,
+				F410A3891EB48286006AA6DB /* Resources */,
+				A6059689831739DD0BB991DA /* [CP] Embed Pods Frameworks */,
+				F8FDACA383DA5F9DC7BAA715 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F410A38D1EB48286006AA6DB /* PBXTargetDependency */,
+			);
+			name = "HaCareem-3Tests";
+			productName = "HaCareem-3Tests";
+			productReference = F410A38B1EB48286006AA6DB /* HaCareem-3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F410A3951EB48286006AA6DB /* HaCareem-3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F410A3A51EB48286006AA6DB /* Build configuration list for PBXNativeTarget "HaCareem-3UITests" */;
+			buildPhases = (
+				DDDCAE5DA32C573CEDB24F5E /* [CP] Check Pods Manifest.lock */,
+				F410A3921EB48286006AA6DB /* Sources */,
+				F410A3931EB48286006AA6DB /* Frameworks */,
+				F410A3941EB48286006AA6DB /* Resources */,
+				DEAAD3CD55726345E3FED6B7 /* [CP] Embed Pods Frameworks */,
+				0200BEA9189E6F2F44CE050B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F410A3981EB48286006AA6DB /* PBXTargetDependency */,
+			);
+			name = "HaCareem-3UITests";
+			productName = "HaCareem-3UITests";
+			productReference = F410A3961EB48286006AA6DB /* HaCareem-3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F410A36A1EB48286006AA6DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Hyder@WhisperO";
+				TargetAttributes = {
+					F410A3711EB48286006AA6DB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = YSY822V46Q;
+						ProvisioningStyle = Automatic;
+					};
+					F410A38A1EB48286006AA6DB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F410A3711EB48286006AA6DB;
+					};
+					F410A3951EB48286006AA6DB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F410A3711EB48286006AA6DB;
+					};
+				};
+			};
+			buildConfigurationList = F410A36D1EB48286006AA6DB /* Build configuration list for PBXProject "HaCareem-3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F410A3691EB48286006AA6DB;
+			productRefGroup = F410A3731EB48286006AA6DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F410A3711EB48286006AA6DB /* HaCareem-3 */,
+				F410A38A1EB48286006AA6DB /* HaCareem-3Tests */,
+				F410A3951EB48286006AA6DB /* HaCareem-3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F410A3701EB48286006AA6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F410A3851EB48286006AA6DB /* LaunchScreen.storyboard in Resources */,
+				F410A3821EB48286006AA6DB /* Assets.xcassets in Resources */,
+				F410A3801EB48286006AA6DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F410A3891EB48286006AA6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F410A3941EB48286006AA6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0200BEA9189E6F2F44CE050B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaCareem-3UITests/Pods-HaCareem-3UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54A5B5731646CC8332028A71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B9E19EF3F24AFDAAF5E603D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaCareem-3/Pods-HaCareem-3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7834E4AD69216444BE33678E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaCareem-3/Pods-HaCareem-3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B4C03215F7F73E47E084468 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6059689831739DD0BB991DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaCareem-3Tests/Pods-HaCareem-3Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDDCAE5DA32C573CEDB24F5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DEAAD3CD55726345E3FED6B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaCareem-3UITests/Pods-HaCareem-3UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8FDACA383DA5F9DC7BAA715 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaCareem-3Tests/Pods-HaCareem-3Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F410A36E1EB48286006AA6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F410A37D1EB48286006AA6DB /* ViewController.m in Sources */,
+				F410A3C71EB49E69006AA6DB /* UIImage+additions.m in Sources */,
+				F410A3C11EB49E69006AA6DB /* CHLocation.m in Sources */,
+				F410A3C31EB49E69006AA6DB /* NSString+MD5.m in Sources */,
+				F410A3C41EB49E69006AA6DB /* SVGeocoder.m in Sources */,
+				F410A3C91EB49E69006AA6DB /* UIImage+Grayscale.m in Sources */,
+				F410A3C01EB49E69006AA6DB /* CHDefaultAndConstant.m in Sources */,
+				F410A3C51EB49E69006AA6DB /* SVPlacemark.m in Sources */,
+				F410A37A1EB48286006AA6DB /* AppDelegate.m in Sources */,
+				F410A3D61EB4DA1D006AA6DB /* DropOffSuggestion.m in Sources */,
+				F410A3C81EB49E69006AA6DB /* UIImage+fixOrientation.m in Sources */,
+				F410A3C61EB49E69006AA6DB /* UIColor+FlatColors.m in Sources */,
+				F410A3C21EB49E69006AA6DB /* CHLocationManager.m in Sources */,
+				F410A3771EB48286006AA6DB /* main.m in Sources */,
+				F410A3D21EB4D8A2006AA6DB /* DataManager.m in Sources */,
+				F410A3CF1EB4CF4B006AA6DB /* OBGradientView.m in Sources */,
+				F410A3BF1EB49E69006AA6DB /* CHCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F410A3871EB48286006AA6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F410A3901EB48286006AA6DB /* HaCareem_3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F410A3921EB48286006AA6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F410A39B1EB48286006AA6DB /* HaCareem_3UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F410A38D1EB48286006AA6DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F410A3711EB48286006AA6DB /* HaCareem-3 */;
+			targetProxy = F410A38C1EB48286006AA6DB /* PBXContainerItemProxy */;
+		};
+		F410A3981EB48286006AA6DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F410A3711EB48286006AA6DB /* HaCareem-3 */;
+			targetProxy = F410A3971EB48286006AA6DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F410A37E1EB48286006AA6DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F410A37F1EB48286006AA6DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F410A3831EB48286006AA6DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F410A3841EB48286006AA6DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F410A39D1EB48286006AA6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F410A39E1EB48286006AA6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F410A3A01EB48286006AA6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 306EB140DB53B1740148E29F /* Pods-HaCareem-3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YSY822V46Q;
+				INFOPLIST_FILE = "HaCareem-3/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whispero.HaCareem-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F410A3A11EB48286006AA6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54FBBE65F49A6120AAE8549F /* Pods-HaCareem-3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YSY822V46Q;
+				INFOPLIST_FILE = "HaCareem-3/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whispero.HaCareem-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F410A3A31EB48286006AA6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F85043315E097E9AA2F948B4 /* Pods-HaCareem-3Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "HaCareem-3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whispero.HaCareem-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaCareem-3.app/HaCareem-3";
+			};
+			name = Debug;
+		};
+		F410A3A41EB48286006AA6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95381B7ED6014DC2B5860E26 /* Pods-HaCareem-3Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "HaCareem-3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whispero.HaCareem-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaCareem-3.app/HaCareem-3";
+			};
+			name = Release;
+		};
+		F410A3A61EB48286006AA6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B1EF2A31507EFBCA3A16437 /* Pods-HaCareem-3UITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "HaCareem-3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whispero.HaCareem-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "HaCareem-3";
+			};
+			name = Debug;
+		};
+		F410A3A71EB48286006AA6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2132D3F09B7FE8BEC8F3B1D /* Pods-HaCareem-3UITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "HaCareem-3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whispero.HaCareem-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "HaCareem-3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F410A36D1EB48286006AA6DB /* Build configuration list for PBXProject "HaCareem-3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F410A39D1EB48286006AA6DB /* Debug */,
+				F410A39E1EB48286006AA6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F410A39F1EB48286006AA6DB /* Build configuration list for PBXNativeTarget "HaCareem-3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F410A3A01EB48286006AA6DB /* Debug */,
+				F410A3A11EB48286006AA6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F410A3A21EB48286006AA6DB /* Build configuration list for PBXNativeTarget "HaCareem-3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F410A3A31EB48286006AA6DB /* Debug */,
+				F410A3A41EB48286006AA6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F410A3A51EB48286006AA6DB /* Build configuration list for PBXNativeTarget "HaCareem-3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F410A3A61EB48286006AA6DB /* Debug */,
+				F410A3A71EB48286006AA6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F410A36A1EB48286006AA6DB /* Project object */;
+}
